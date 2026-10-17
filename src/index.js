@@ -3,6 +3,5 @@
  * @description This file exports the English and Bangla geo-location modules.
  */
 
-import GeoLocationEn from "./classes/en.js";
-
-export { GeoLocationEn };
+// Export the English geo-location module
+export * from './classes/en.js';
