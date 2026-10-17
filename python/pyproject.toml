@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geo-location-bd"
+version = "1.0.0"
+description = "Bangladesh geo-location data package with division, district and thana lookup"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Pickatoz" }]
+license = "MIT"
+keywords = ["bangladesh", "geo", "location", "district", "division", "thana"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pickatoz/geo-location-bd#readme"
+Repository = "https://github.com/pickatoz/geo-location-bd"
+Issues = "https://github.com/pickatoz/geo-location-bd/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
