@@ -5,7 +5,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-class GeoLocationEn {
+export class GeoLocationEn {
   constructor() {
     this.dataCache = null;
   }
@@ -132,5 +132,3 @@ class GeoLocationEn {
     return this.getDistrictByDivisionName(divisionName).flatMap((district) => district.thanas || []);
   }
 }
-
-export default GeoLocationEn;

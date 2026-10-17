@@ -4,4 +4,6 @@
  */
 
 // Export the English geo-location module
-export * from './classes/en.js';
+import { GeoLocationEn } from './classes/en.js';
+
+export { GeoLocationEn };
