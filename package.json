@@ -1,0 +1,37 @@
+{
+  "name": "geo-location-bd",
+  "version": "1.0.0",
+  "description": "Bangladesh geo-location data package with division, district and thana lookup",
+  "homepage": "https://github.com/pickatoz/geo-location-bd#readme",
+  "bugs": {
+    "url": "https://github.com/pickatoz/geo-location-bd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pickatoz/geo-location-bd.git"
+  },
+  "license": "MIT",
+  "author": "Pickatoz",
+  "type": "module",
+  "packageManager": "pnpm@9.0.0",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node --test test/geo-location.test.js"
+  },
+  "devDependencies": {
+    "rollup": "^4.64.7"
+  }
+}
