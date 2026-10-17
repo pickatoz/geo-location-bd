@@ -2,6 +2,15 @@
   "name": "geo-location-bd",
   "version": "1.0.0",
   "description": "Bangladesh geo-location data package with division, district and thana lookup",
+  "keywords": [
+    "bangladesh",
+    "geolocation",
+    "division",
+    "district",
+    "thana",
+    "upazila",
+    "location-data"
+  ],
   "homepage": "https://github.com/pickatoz/geo-location-bd#readme",
   "bugs": {
     "url": "https://github.com/pickatoz/geo-location-bd/issues"
